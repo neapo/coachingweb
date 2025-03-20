@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="400" height="400" fill="#ecfdf5" rx="20" ry="20"/>
+  
+  <!-- Pessoa -->
+  <circle cx="200" cy="150" r="50" fill="#fef3c7"/>
+  <circle cx="200" cy="150" r="40" fill="#fef3c7"/>
+  
+  <!-- Cabelo -->
+  <path d="M170,130 C170,110 180,100 200,100 C220,100 230,110 230,130 C230,130 220,120 200,120 C180,120 170,130 170,130 Z" fill="#065f46"/>
+  
+  <!-- Olhos -->
+  <circle cx="190" cy="140" r="5" fill="#1e293b"/>
+  <circle cx="210" cy="140" r="5" fill="#1e293b"/>
+  
+  <!-- Boca - sorriso -->
+  <path d="M185,160 Q200,170 215,160" stroke="#9d174d" stroke-width="2" fill="none"/>
+  
+  <!-- Corpo -->
+  <rect x="190" y="200" width="20" height="80" fill="#10b981"/>
+  <rect x="170" y="210" width="15" height="60" rx="7" ry="7" fill="#10b981" transform="rotate(-30 170 210)"/>
+  <rect x="230" y="210" width="15" height="60" rx="7" ry="7" fill="#10b981" transform="rotate(30 230 210)"/>
+  
+  <!-- Plantas e Alimentos -->
+  <circle cx="120" cy="250" r="30" fill="#d1fae5"/>
+  <path d="M105,250 C105,230 115,200 120,180 C125,200 135,230 135,250 Z" fill="#10b981"/>
+  <path d="M115,250 C115,235 110,210 105,195 C100,210 95,235 95,250 Z" fill="#10b981"/>
+  <path d="M125,250 C125,235 130,210 135,195 C140,210 145,235 145,250 Z" fill="#10b981"/>
+  
+  <!-- Frutas -->
+  <circle cx="280" cy="240" r="15" fill="#ef4444"/>
+  <circle cx="300" cy="250" r="15" fill="#f59e0b"/>
+  <circle cx="270" cy="260" r="15" fill="#84cc16"/>
+  <circle cx="290" cy="270" r="15" fill="#8b5cf6"/>
+  
+  <!-- Microscópio/Análise -->
+  <rect x="180" y="280" width="10" height="40" fill="#064e3b"/>
+  <rect x="175" y="320" width="20" height="5" fill="#064e3b"/>
+  <path d="M185,280 L205,260 L215,270 L195,290 Z" fill="#d1fae5" stroke="#064e3b" stroke-width="2"/>
+  <circle cx="210" cy="265" r="10" fill="none" stroke="#064e3b" stroke-width="2"/>
+  
+  <!-- Balão de pensamento -->
+  <path d="M230,100 L250,70 L270,100 Z" fill="#ffffff"/>
+  <ellipse cx="300" cy="50" rx="60" ry="30" fill="#ffffff"/>
+  
+  <!-- Texto no balão -->
+  <text x="300" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="#065f46">Nutrição Natural</text>
+  
+  <!-- Ícones de nutrientes -->
+  <circle cx="120" cy="350" r="15" fill="#d1fae5"/>
+  <text x="120" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#065f46">🍃</text>
+  
+  <circle cx="160" cy="350" r="15" fill="#d1fae5"/>
+  <text x="160" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#065f46">💊</text>
+  
+  <circle cx="200" cy="350" r="15" fill="#d1fae5"/>
+  <text x="200" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#065f46">🧠</text>
+  
+  <circle cx="240" cy="350" r="15" fill="#d1fae5"/>
+  <text x="240" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#065f46">⚡</text>
+  
+  <circle cx="280" cy="350" r="15" fill="#d1fae5"/>
+  <text x="280" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#065f46">❤️</text>
+</svg>

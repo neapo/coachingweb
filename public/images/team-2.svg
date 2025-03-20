@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="400" height="400" fill="#dbeafe" rx="20" ry="20"/>
+  
+  <!-- Pessoa -->
+  <circle cx="200" cy="150" r="50" fill="#fef3c7"/>
+  <circle cx="200" cy="150" r="40" fill="#fef3c7"/>
+  
+  <!-- Cabelo -->
+  <path d="M170,130 C170,110 180,100 200,100 C220,100 230,110 230,130 C230,130 220,120 200,120 C180,120 170,130 170,130 Z" fill="#1e40af"/>
+  
+  <!-- Olhos -->
+  <circle cx="190" cy="140" r="5" fill="#1e293b"/>
+  <circle cx="210" cy="140" r="5" fill="#1e293b"/>
+  
+  <!-- Boca - sorriso -->
+  <path d="M185,160 Q200,170 215,160" stroke="#9d174d" stroke-width="2" fill="none"/>
+  
+  <!-- Corpo -->
+  <rect x="190" y="200" width="20" height="80" fill="#3b82f6"/>
+  <rect x="170" y="210" width="15" height="60" rx="7" ry="7" fill="#3b82f6" transform="rotate(-30 170 210)"/>
+  <rect x="230" y="210" width="15" height="60" rx="7" ry="7" fill="#3b82f6" transform="rotate(30 230 210)"/>
+  
+  <!-- Prancheta/Plano -->
+  <rect x="120" y="240" width="60" height="80" rx="5" ry="5" fill="#ffffff" stroke="#1e40af" stroke-width="2"/>
+  <line x1="130" y1="260" x2="170" y2="260" stroke="#1e40af" stroke-width="1"/>
+  <line x1="130" y1="270" x2="170" y2="270" stroke="#1e40af" stroke-width="1"/>
+  <line x1="130" y1="280" x2="170" y2="280" stroke="#1e40af" stroke-width="1"/>
+  <line x1="130" y1="290" x2="150" y2="290" stroke="#1e40af" stroke-width="1"/>
+  
+  <!-- Gráfico de crescimento -->
+  <rect x="240" y="240" width="80" height="60" rx="5" ry="5" fill="#ffffff" stroke="#1e40af" stroke-width="2"/>
+  <polyline points="250,280 260,270 270,275 280,260 290,250 300,245 310,230" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="310" cy="230" r="5" fill="#3b82f6"/>
+  
+  <!-- Balão de pensamento -->
+  <path d="M230,100 L250,70 L270,100 Z" fill="#ffffff"/>
+  <ellipse cx="300" cy="50" rx="60" ry="30" fill="#ffffff"/>
+  
+  <!-- Texto no balão -->
+  <text x="300" y="55" font-family="Arial" font-size="12" text-anchor="middle" fill="#3b82f6">Coaching de Carreira</text>
+  
+  <!-- Ícones de habilidades -->
+  <circle cx="120" cy="350" r="15" fill="#bfdbfe"/>
+  <text x="120" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#1e40af">🎯</text>
+  
+  <circle cx="160" cy="350" r="15" fill="#bfdbfe"/>
+  <text x="160" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#1e40af">💼</text>
+  
+  <circle cx="200" cy="350" r="15" fill="#bfdbfe"/>
+  <text x="200" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#1e40af">🔄</text>
+  
+  <circle cx="240" cy="350" r="15" fill="#bfdbfe"/>
+  <text x="240" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#1e40af">⏱️</text>
+  
+  <circle cx="280" cy="350" r="15" fill="#bfdbfe"/>
+  <text x="280" y="355" font-family="Arial" font-size="10" text-anchor="middle" fill="#1e40af">🚀</text>
+</svg>

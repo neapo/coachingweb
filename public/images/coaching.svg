@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="400" height="400" fill="#dbeafe" rx="20" ry="20"/>
+  
+  <!-- Pessoa de pé -->
+  <circle cx="200" cy="120" r="50" fill="#3b82f6"/>
+  <rect x="175" y="170" width="50" height="150" fill="#3b82f6"/>
+  
+  <!-- Cabeça -->
+  <circle cx="200" cy="120" r="40" fill="#fef3c7"/>
+  
+  <!-- Cabelo -->
+  <path d="M160,100 C160,80 180,60 200,60 C220,60 240,80 240,100 C240,100 230,90 200,90 C170,90 160,100 160,100 Z" fill="#1e40af"/>
+  
+  <!-- Olhos -->
+  <circle cx="185" cy="110" r="5" fill="#1e293b"/>
+  <circle cx="215" cy="110" r="5" fill="#1e293b"/>
+  
+  <!-- Boca - sorriso confiante -->
+  <path d="M180,135 Q200,150 220,135" stroke="#9d174d" stroke-width="3" fill="none"/>
+  
+  <!-- Braços -->
+  <rect x="175" y="180" width="15" height="100" rx="10" ry="10" fill="#3b82f6" transform="rotate(-30 175 180)"/>
+  <rect x="225" y="180" width="15" height="100" rx="10" ry="10" fill="#3b82f6" transform="rotate(30 225 180)"/>
+  
+  <!-- Mãos -->
+  <circle cx="130" cy="230" r="15" fill="#fef3c7"/>
+  <circle cx="270" cy="230" r="15" fill="#fef3c7"/>
+  
+  <!-- Pernas -->
+  <rect x="175" y="320" width="20" height="80" rx="10" ry="10" fill="#3b82f6"/>
+  <rect x="205" y="320" width="20" height="80" rx="10" ry="10" fill="#3b82f6"/>
+  
+  <!-- Pés -->
+  <ellipse cx="175" cy="400" rx="15" ry="5" fill="#1e293b"/>
+  <ellipse cx="225" cy="400" rx="15" ry="5" fill="#1e293b"/>
+  
+  <!-- Alvo/Meta -->
+  <circle cx="320" cy="150" r="40" fill="white" stroke="#3b82f6" stroke-width="5"/>
+  <circle cx="320" cy="150" r="30" fill="white" stroke="#3b82f6" stroke-width="5"/>
+  <circle cx="320" cy="150" r="20" fill="white" stroke="#3b82f6" stroke-width="5"/>
+  <circle cx="320" cy="150" r="10" fill="#3b82f6"/>
+  
+  <!-- Seta -->
+  <path d="M270,230 L310,160" stroke="#1e40af" stroke-width="3" fill="none"/>
+  <path d="M310,160 L300,155 L305,145 Z" fill="#1e40af"/>
+  
+  <!-- Balão de pensamento -->
+  <path d="M230,80 L240,60 L260,90 Z" fill="#ffffff"/>
+  <ellipse cx="280" cy="40" rx="60" ry="30" fill="#ffffff"/>
+  
+  <!-- Texto no balão -->
+  <text x="280" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#3b82f6">Coaching</text>
+</svg>
